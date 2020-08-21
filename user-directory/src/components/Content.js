@@ -16,15 +16,28 @@ export default class Content extends Component {
     }
 
     previous() {
-        this.setState({
-            index: this.state.index - 1
-        })
+        if (index === 0) {
+            this.setState({
+                index: this.state.index = 24
+            })
+        } else {
+            this.setState({
+                index: this.state.index - 1
+            })
+        }
+
     }
 
     next() {
-        this.setState({
-            index: this.state.index + 1
-        })
+        if (index === 24) {
+            this.setState({
+                index: this.state.index = 0
+            })
+        } else {
+            this.setState({
+                index: this.state.index + 1
+            })
+        }
     }
 
     render() {
