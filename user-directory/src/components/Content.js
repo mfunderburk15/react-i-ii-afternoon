@@ -16,7 +16,7 @@ export default class Content extends Component {
     }
 
     previous() {
-        if (index === 0) {
+        if (this.state.index === 0) {
             this.setState({
                 index: this.state.index = 24
             })
@@ -29,7 +29,7 @@ export default class Content extends Component {
     }
 
     next() {
-        if (index === 24) {
+        if (this.state.index === 24) {
             this.setState({
                 index: this.state.index = 0
             })
