@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.head{
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(56, 142, 212);
+  display: flex;
+  align-items: center;
+  padding: 75px;
+}
+
+.body{
+  width: 100vw;
+  height: 85vh;
+  background-color: rgb(24,22, 20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content{
+  width: 80vw;
+  height: 50vh;
+  background-color: white;
+}
+
+.options{
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.scroll{
+  background-color: transparent;
+  color: white;
+  margin-top: 15px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+
+.toolbar{
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tool{
+  margin-top: 10px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color:  rgb(56, 142, 212);
+  color: white;
+  font-size: 15px;
+  border: none;
+  font-weight: bold;
+}
+
+.slide{
+  display: flex;
+  justify-content: end;
+  font-size: 30px;
+  padding-right: 15px;
+}
+
+.name{
+  font-size: 35px;
+  text-decoration: underline;
+  text-decoration-color: rgb(56, 142, 212);
+  padding-bottom: 30px;
+  padding-left: 80px;
+}
+
+.info{
+  padding-left: 80px;
+  padding-bottom: 30px;
+  font-size: 18px
+}
+
+.topic{
+  padding-left: 80px;
+  font-size: 18px;
+}
+
+.movies{
+  padding-left: 140px;
+  font-size: 18px;
+}
